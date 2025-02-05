@@ -28,9 +28,9 @@ Output: [3,4,6,16,17]
 
 //--------Solu-----------------------------------------
 
-const ex1 = [1, 2, 3, 4];
-const ex2 = [1, 1, 1, 1, 1];
-const ex3 = [3, 1, 2, 10, 1];
+const ex1 = [1, 2, 3, 4]; //you need output to be [1, 3, 6, 10]
+const ex2 = [1, 1, 1, 1, 1];  //you need output to be [1, 2, 3, 4, 5]
+const ex3 = [3, 1, 2, 10, 1];  //you need output to be [3, 4, 6, 16, 17]
 
 function solution(inputArray) {
   let arrayToPush = [inputArray[0]];
@@ -43,5 +43,5 @@ function solution(inputArray) {
 }
 
 console.log(solution(ex1)); //output [1, 3, 6, 10]
-console.log(solution(ex2)); //output [ 1, 2, 3, 4, 5 ]
-console.log(solution(ex3)); //output [ 3, 4, 6, 16, 17 ]
+console.log(solution(ex2)); //output [1, 2, 3, 4, 5]
+console.log(solution(ex3)); //output [3, 4, 6, 16, 17]
