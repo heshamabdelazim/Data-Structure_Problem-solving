@@ -4,7 +4,7 @@ const myArray = [1, 2, 3, 4, 5];
 Array.prototype.mapClone = function (callBack) {
   let myArrayToPush = [];
   for (let i = 0; i < this.length; i++) {
-    myArrayToPush.push(callBack(this[i], i, this)); //this is (array input) to map on it
+    myArrayToPush.push(callBack(this[i], i, this)); 
   }
   return myArrayToPush;
 };
